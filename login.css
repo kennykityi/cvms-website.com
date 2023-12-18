@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.box {
+  display: flex;
+}
+
+div.form {
+  flex:0 0 22%;
+  float: right;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  text-align: center;
+  padding: 2.5%;
+}
+
+div.container {
+  flex:1 ;
+}
+
+#pass,
+#name {
+  border: 1px solid grey;
+  padding: 2% 4%;
+  border-radius: 5px;
+}
+
+.button {
+  display: inline-block;
+  padding: 2% 4%;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  color: black;
+  background-color: #ffa836;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px #888888;
+}
+
+.button:hover {
+  background-color: #f8d496
+}
+
+.button:active {
+  background-color: #f8d496;
+  box-shadow: 0 3px #888888;
+  transform: translateY(4px);
+}
